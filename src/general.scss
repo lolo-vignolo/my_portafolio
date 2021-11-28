@@ -1,0 +1,15 @@
+$primary: #F4F4F4;
+$second: crimson;
+
+$portafolio: #F4F4F4;
+
+$width : 1005px;
+
+@mixin mobile{
+    @media (max-width:#{$width}){
+        @content
+    }
+}
+
+
+// 1005 * 727
